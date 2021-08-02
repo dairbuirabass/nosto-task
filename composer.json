@@ -1,0 +1,20 @@
+{
+    "name": "my/nosto-extension",
+    "description": "Custom extension for altering product data",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "nosto/module-nostotagging": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "My\\Nosto\\": ""
+        },
+        "files": [ "registration.php" ]
+    }
+}
