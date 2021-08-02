@@ -21,6 +21,7 @@ class Load implements ObserverInterface
     {
         /* @var $product \NostoProduct */
         $product = $observer->getProduct();
+        $product->setPrice(10);
 
         /*
         * Here you can modify any product property you need and it will
